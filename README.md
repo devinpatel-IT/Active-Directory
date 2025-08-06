@@ -25,7 +25,7 @@ As part of my journey to strengthen my skills in system administration, cloud in
 - Demonstrate my ability to build and manage cloud-hosted infrastructure from scratch.
 
 
-<h1>SKILLS DEMONSTRATED</h1>
+<h1>Skills Demonstrated</h1>
 
 _<b>1.) Microsoft Azure</b>_
 
