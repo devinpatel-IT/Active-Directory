@@ -79,7 +79,7 @@ _<b> 5.) Documentation and Automation</b>_
 - Step 4: Use Windows Powershell commands to create users
 - Step 5: Implement Group Policy Objects
 
-<h2>Setting up Domain Controller on Windows Server</h2>
+<h2>Step 1: Setting up Domain Controller on Windows Server</h2>
 
 _<strong> 1.) Deploy Azure virtual machine with Windows Server for Domain Controller </strong>_
 
