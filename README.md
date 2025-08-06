@@ -73,12 +73,15 @@ _<b> 5.) Documentation and Automation</b>_
 
 <h2>High-Level Deployment and Configuration Steps</h2>
 
-- Step 1
-- Step 2
-- Step 3
-- Step 4
+- Step 1: Setup and configure Microsoft Azure virtual machines and virtual network
+- Step 2: Setup Active Directory and configure objects. 
+- Step 3: Setup client computer and configure DNS settings
+- Step 4: Use Windows Powershell commands to create users
+- Step 5: Implement Group Policy Objects
 
-<h2>Deployment and Configuration Steps</h2>
+<h2>Setting up Domain Controller on Windows Server</h2>
+
+_<strong> 1.) Deploy Azure virtual machine with Windows Server for Domain Controller </strong>_
 
 <p>
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
