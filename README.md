@@ -5,12 +5,53 @@
 </p>
 
 <h1>On-premises Active Directory Deployed in the Cloud (Azure)</h1>
-This tutorial outlines the implementation of on-premises Active Directory within Azure Virtual Machines.<br />
+Active Directory on Azure – Project Overview
+This project showcases my hands-on experience designing and deploying an Active Directory (AD) environment on a Microsoft Azure virtual machine (VM). I created this project to deepen my understanding of enterprise-level identity and access management, as well as to simulate real-world IT infrastructure scenarios used in corporate environments.
 
+Why I Built This Project
+As part of my journey to strengthen my skills in system administration, cloud infrastructure, and network security, I wanted to:
 
-<h2>Video Demonstration</h2>
+- Gain practical experience with Windows Server roles, particularly Active Directory Domain Services (AD DS).
 
-- ### [YouTube: How to Deploy on-premises Active Directory within Azure Compute](https://www.youtube.com)
+- Learn how to provision and configure virtual machines in Azure.
+
+- Simulate a realistic IT environment for centralized user management and authentication.
+
+- Demonstrate my ability to build and manage cloud-hosted infrastructure from scratch.
+
+- Skills Demonstrated
+
+_<b>1.) Microsoft Azure</b>_
+
+- VM provisioning and network setup (vNets, NSGs)
+
+- Remote administration via RDP
+
+- Windows Server 2019/2022
+
+_<b> 2.) Installing and configuring Active Directory Domain Services (AD DS)</b>_
+
+- Creating and managing users, groups, and OUs
+
+- Implementing Group Policy Objects (GPOs) for policy control
+
+_<b> 3.) Networking Fundamentals </b>_
+
+- DNS configuration for domain resolution
+
+- Domain joining and trust relationships
+
+_<b> 4.) Security and Access Management</b>_
+
+- Role-based access control (RBAC)
+
+- Centralized identity management
+
+_<b> 5.) Documentation and Automation</b>_
+
+- PowerShell scripting for user/group creation
+
+<br />
 
 <h2>Environments and Technologies Used</h2>
 
