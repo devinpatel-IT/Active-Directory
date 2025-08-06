@@ -84,15 +84,17 @@ _<b> 5.) Documentation and Automation</b>_
 _<strong> 1.) Deploy Azure virtual machine with Windows Server for Domain Controller </strong>_
 
 <p>
+To simulate a real-world enterprise environment, I deployed a Windows Server virtual machine on Microsoft Azure and configured it as an Active Directory Domain Controller. This setup allowed me to gain hands-on experience with core infrastructure technologies that are essential in corporate IT environments. 
+</p>
+
+AZURE VIRTUAL MACHINE WITH WINDOWS SERVER (WILL BE USED TO HOST ACTIVE DIRECTORY AS A DOMAIN CONTROLLER)
+<p>
 <img width="2354" height="1081" alt="Screenshot 2025-08-06 194325" src="https://github.com/user-attachments/assets/07e39cec-3537-4a4e-8296-2356c3703011" />
 </p>
 
+THE SERVER WAS PROMOTED TO ACTIVE DIRECTORY DOMAIN CONTROLLER AND SAMPLEDOMAIN.COM WAS CREATED AS THE DOMAIN NAME
 <p>
-To simulate a real-world enterprise environment, I deployed a Windows Server virtual machine on Microsoft Azure and configured it as an Active Directory Domain Controller. This setup allowed me to gain hands-on experience with core infrastructure technologies that are essential in corporate IT environments.
-</p>
-
-<p>
-<img width="2391" height="952" alt="Screenshot 2025-08-06 194045" src="https://github.com/user-attachments/assets/d8565b98-21e4-482a-8a19-61fe822323e3" />
+<img width="2361" height="951" alt="Screenshot 2025-08-06 195916" src="https://github.com/user-attachments/assets/c780ae56-2bab-4a44-baf0-564389cd8a85" />
 </p>
 
 <br />
