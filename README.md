@@ -88,8 +88,13 @@ _<strong> 1.) Deploy Azure virtual machine with Windows Server for Domain Contro
 </p>
 
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+To simulate a real-world enterprise environment, I deployed a Windows Server virtual machine on Microsoft Azure and configured it as an Active Directory Domain Controller. This setup allowed me to gain hands-on experience with core infrastructure technologies that are essential in corporate IT environments.
 </p>
+
+<p>
+<img width="2391" height="952" alt="Screenshot 2025-08-06 194045" src="https://github.com/user-attachments/assets/d8565b98-21e4-482a-8a19-61fe822323e3" />
+</p>
+
 <br />
 
 <p>
