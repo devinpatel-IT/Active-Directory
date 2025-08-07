@@ -183,9 +183,15 @@ The GPO WAS CONFIGURED TO BLOCK ALL REMOVABLE STORAGE DEVICES IN GROUP POLICY MA
 <img width="1512" height="803" alt="Screenshot 2025-08-07 104939" src="https://github.com/user-attachments/assets/92a1c528-a716-4e21-bc51-7612aeb265fb" />
 </p>
 
-The client computer is added to the domain in system settings
+PASSWORD POLICY SETTINGS WERE CONFIGURED USING DEFAULT DOMAIN POLICY IN GROUP POLICY MANAGEMENT EDITOR
+
+
 <p>
-<img width="543" height="564" alt="Screenshot 2025-08-07 100944" src="https://github.com/user-attachments/assets/cd0866b1-1236-4b4b-bb61-d316d5d1a57f" />
+<img width="1228" height="675" alt="Screenshot 2025-08-07 112729" src="https://github.com/user-attachments/assets/222b0d8c-8a01-415a-8a8f-57f310fb67d4" />
+</p>
+
+<p>
+<img width="1220" height="701" alt="Screenshot 2025-08-07 112740" src="https://github.com/user-attachments/assets/491b5a78-fc71-452e-a713-07e551ddfe2b" />
 </p>
 
 <br />
