@@ -161,18 +161,32 @@ The client computer is added to the domain in system settings
 
 <br />
 
-<p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-</p>
-<br />
+<h2> Step 5: Implement Group Policy Settings and Default Domain Policy to configure password policy</h2>
+
+_<strong> Group Policy Management will be used to configure GPOs </strong>_
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+In this Active Directory project, I implemented Group Policy Objects (GPOs) and password policy configurations to demonstrate centralized management and enforcement of security standards across the domain.
+
+Group Policy allowed me to automate and standardize settings across all domain-joined computers, ensuring consistency, improving security, and reducing administrative overhead. I configured policies such as desktop restrictions, software installation control, and user environment customization to reflect common enterprise practices. 
+
+Additionally, I set up password policies to enforce strong authentication practices, including minimum password length, complexity requirements, and account lockout thresholds. These measures are crucial in protecting the network from unauthorized access and aligning with industry best practices for identity security. 
 </p>
+
+A NEW GPO WAS CREATED ON THE _CLIENTS OU (Computers) IN GROUP POLICY MANAGEMENT IN ACTIVE DIRECTORY
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+<img width="1716" height="467" alt="Screenshot 2025-08-07 105034" src="https://github.com/user-attachments/assets/e9ad5ad8-4560-4966-8a5a-24212f831195" />
 </p>
+
+The GPO WAS CONFIGURED TO BLOCK ALL REMOVABLE STORAGE DEVICES IN GROUP POLICY MANAGEMENT EDITOR
+<p>
+<img width="1512" height="803" alt="Screenshot 2025-08-07 104939" src="https://github.com/user-attachments/assets/92a1c528-a716-4e21-bc51-7612aeb265fb" />
+</p>
+
+The client computer is added to the domain in system settings
+<p>
+<img width="543" height="564" alt="Screenshot 2025-08-07 100944" src="https://github.com/user-attachments/assets/cd0866b1-1236-4b4b-bb61-d316d5d1a57f" />
+</p>
+
 <br />
+
