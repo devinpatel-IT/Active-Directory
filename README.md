@@ -72,15 +72,15 @@ _<b> 5.) Documentation and Automation</b>_
 
 <h2>High-Level Deployment and Configuration Steps</h2>
 
-- Step 1: Setup and configure Microsoft Azure virtual machines and virtual network
-- Step 2: Setup Active Directory and configure objects 
-- Step 3: Use Windows Powershell commands to create users
-- Step 4: Setup client computer and configure DNS settings
+- Step 1: Set up and configure Microsoft Azure virtual machines and virtual network
+- Step 2: Set up Active Directory and configure objects 
+- Step 3: Use Windows PowerShell commands to create users
+- Step 4: Set up client computer and configure DNS settings
 - Step 5: Implement Group Policy Objects
 
 <h2>Step 1: Setting up Domain Controller on Windows Server</h2>
 
-_<strong> 1.) Deploy Azure virtual machine with Windows Server for Domain Controller </strong>_
+_<strong> 1.) Deploy an Azure virtual machine with Windows Server for a Domain Controller </strong>_
 
 <p>
 To simulate a real-world enterprise environment, I deployed a Windows Server virtual machine on Microsoft Azure and configured it as an Active Directory Domain Controller. This setup allowed me to gain hands-on experience with core infrastructure technologies that are essential in corporate IT environments. 
@@ -98,9 +98,9 @@ THE SERVER WAS PROMOTED TO ACTIVE DIRECTORY DOMAIN CONTROLLER AND SAMPLEDOMAIN.C
 
 <br />
 
-<h2>Step 2: Setup Active Directory and configure objects (Users, computers, groups)</h2>
+<h2>Step 2: Set up Active Directory and configure objects (Users, computers, groups)</h2>
 
-_<strong> 1.) Create new Containers and Organizatinal Units with Active Directory Objects </strong>_
+_<strong> 1.) Create new Containers and Organizational Units with Active Directory Objects </strong>_
 
 <p>
 As the next step in building a functional and realistic Active Directory environment, I created a structured hierarchy of Organizational Units (OUs), along with sample users and computer accounts. This was done to simulate how real organizations manage identity, access, and administrative boundaries at scale. 
@@ -113,15 +113,15 @@ SAMPLE ACTIVE DIRECTORY OBJECTS WERE CREATED
 
 <br />
 
-<h2>Step 3: Use Windows Powershell commands to create users</h2>
+<h2>Step 3: Use Windows PowerShell commands to create users</h2>
 
 _<strong> 1.) The new random users will be added to the _EMPLOYEES organizational unit. </strong>_
 
 <p>
-To simulate a real-world enterprise environment with a scalable user base, I automated the creation of random test user accounts using a Windows PowerShell script and placed them within a dedicated Organizational Unit named _EMPLOYEES which can be later used to apply group policy objects. 
+To simulate a real-world enterprise environment with a scalable user base, I automated the creation of random test user accounts using a Windows PowerShell script and placed them within a dedicated Organizational Unit named _EMPLOYEES, which can be later used to apply group policy objects. 
 </p>
 
-WINDOWS POWERSHELL SCRIPT TO CREATE 100 RANDOM USERS IN DOMAIN
+WINDOWS POWERSHELL SCRIPT TO CREATE 100 RANDOM USERS IN THE DOMAIN
 <p>
 <img width="1679" height="1034" alt="Screenshot 2025-08-06 201508" src="https://github.com/user-attachments/assets/901a0002-f7b3-4edd-bfa0-ee1b24e74bdb" />
 </p>
@@ -133,7 +133,7 @@ THE USERS WERE ADDED TO THE _EMPLOYEES OU
 
 <br />
 
-<h2> Step 4: Setup client computer and configure DNS settings</h2>
+<h2> Step 4: Set up client computer and configure DNS settings</h2>
 
 _<strong> A new virtual machine will be created in Azure to simulate a client computer in the domain with the appropriate DNS settings </strong>_
 
@@ -148,7 +148,7 @@ NEW VIRTUAL MACHINE CREATED IN AZURE TO SIMULATE A COMPUTER ON THE DOMAIN
 <img width="2458" height="1084" alt="Screenshot 2025-08-07 095919" src="https://github.com/user-attachments/assets/f34da18a-3339-4ca6-ab06-4d800e5fc64c" />
 </p>
 
-THE IP ADDRESS OF THE CLIENT COMPUTER DNS SERVER WAS SET TO IP ADDRESS OF DOMAIN CONTROLLER
+THE IP ADDRESS OF THE CLIENT COMPUTER DNS SERVER WAS SET TO THE IP ADDRESS OF THE DOMAIN CONTROLLER
 <p>
 <img width="1471" height="962" alt="Screenshot 2025-08-07 100031" src="https://github.com/user-attachments/assets/9f989c8e-1229-4d7f-b049-7359e0d3b111" />
 </p>
