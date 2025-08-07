@@ -144,13 +144,19 @@ As part of my Active Directory project, I created a client computer and configur
 By manually pointing the client computer's DNS to the domain controller's IP address, I ensured proper name resolution for domain services. This step was essential for the client to locate and authenticate with the domain controller during the domain join process. Successfully joining the domain allowed me to test user logins, group policy applications, and domain-based resource access—all critical aspects of managing a secure and centralized IT infrastructure. 
 </p>
 
+New virtual machine created to simualte a computer on the domain for the users
 <p>
-<img width="1679" height="1034" alt="Screenshot 2025-08-06 201508" src="https://github.com/user-attachments/assets/901a0002-f7b3-4edd-bfa0-ee1b24e74bdb" />
+<img width="2458" height="1084" alt="Screenshot 2025-08-07 095919" src="https://github.com/user-attachments/assets/f34da18a-3339-4ca6-ab06-4d800e5fc64c" />
 </p>
 
-The users were added to the Organzational Unit named _EMPLOYEES
+The IP address of the client DNS server is set to the IP address of the Domain Controller
 <p>
-<img width="1265" height="1043" alt="Screenshot 2025-08-06 201628" src="https://github.com/user-attachments/assets/62593c91-7ff2-4ba3-9708-62efb76f8eab" />
+<img width="1471" height="962" alt="Screenshot 2025-08-07 100031" src="https://github.com/user-attachments/assets/9f989c8e-1229-4d7f-b049-7359e0d3b111" />
+</p>
+
+The client computer is added to the domain in system settings
+<p>
+<img width="543" height="564" alt="Screenshot 2025-08-07 100944" src="https://github.com/user-attachments/assets/cd0866b1-1236-4b4b-bb61-d316d5d1a57f" />
 </p>
 
 <br />
