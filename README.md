@@ -106,7 +106,7 @@ _<strong> 1.) Create new Containers and Organizatinal Units with Active Director
 As the next step in building a functional and realistic Active Directory environment, I created a structured hierarchy of Organizational Units (OUs), along with sample users and computer accounts. This was done to simulate how real organizations manage identity, access, and administrative boundaries at scale. 
 </p>
 
-Sample Active Directory Objects were created
+SAMPLE ACTIVE DIRECTORY OBJECTS WERE CREATED
 <p>
 <img width="1056" height="950" alt="image" src="https://github.com/user-attachments/assets/c2495a36-0645-4bb2-8c9d-f90d63589eb4" />
 </p>
@@ -121,12 +121,12 @@ _<strong> 1.) The new random users will be added to the _EMPLOYEES organizationa
 To simulate a real-world enterprise environment with a scalable user base, I automated the creation of random test user accounts using a Windows PowerShell script and placed them within a dedicated Organizational Unit named _EMPLOYEES which can be later used to apply group policy objects. 
 </p>
 
-Windows Powershell script used to create 100 random users inside Domain Controller
+WINDOWS POWERSHELL SCRIPT TO CREATE 100 RANDOM USERS IN DOMAIN
 <p>
 <img width="1679" height="1034" alt="Screenshot 2025-08-06 201508" src="https://github.com/user-attachments/assets/901a0002-f7b3-4edd-bfa0-ee1b24e74bdb" />
 </p>
 
-The users were added to the Organzational Unit named _EMPLOYEES
+THE USERS WERE ADDED TO THE _EMPLOYEES OU
 <p>
 <img width="1265" height="1043" alt="Screenshot 2025-08-06 201628" src="https://github.com/user-attachments/assets/62593c91-7ff2-4ba3-9708-62efb76f8eab" />
 </p>
@@ -143,17 +143,17 @@ As part of my Active Directory project, I created a client computer and configur
 By manually pointing the client computer's DNS to the domain controller's IP address, I ensured proper name resolution for domain services. This step was essential for the client to locate and authenticate with the domain controller during the domain join process. Successfully joining the domain allowed me to test user logins, group policy applications, and domain-based resource access—all critical aspects of managing a secure and centralized IT infrastructure. 
 </p>
 
-New virtual machine created to simualte a computer on the domain for the users
+NEW VIRTUAL MACHINE CREATED IN AZURE TO SIMULATE A COMPUTER ON THE DOMAIN
 <p>
 <img width="2458" height="1084" alt="Screenshot 2025-08-07 095919" src="https://github.com/user-attachments/assets/f34da18a-3339-4ca6-ab06-4d800e5fc64c" />
 </p>
 
-The IP address of the client DNS server is set to the IP address of the Domain Controller
+THE IP ADDRESS OF THE CLIENT COMPUTER DNS SERVER WAS SET TO IP ADDRESS OF DOMAIN CONTROLLER
 <p>
 <img width="1471" height="962" alt="Screenshot 2025-08-07 100031" src="https://github.com/user-attachments/assets/9f989c8e-1229-4d7f-b049-7359e0d3b111" />
 </p>
 
-The client computer is added to the domain in system settings
+THE CLIENT COMPUTER IS ADDED TO THE ACTIVE DIRECTORY DOMAIN IN SYSTEM SETTINGS
 <p>
 <img width="543" height="564" alt="Screenshot 2025-08-07 100944" src="https://github.com/user-attachments/assets/cd0866b1-1236-4b4b-bb61-d316d5d1a57f" />
 </p>
