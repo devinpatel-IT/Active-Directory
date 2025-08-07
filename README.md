@@ -119,6 +119,26 @@ THE SERVER WAS PROMOTED TO ACTIVE DIRECTORY DOMAIN CONTROLLER AND SAMPLEDOMAIN.C
 
 <br />
 
+<h2>Step 3: Create random users using Windows Powershell script</h2>
+
+_<strong> 1.) The new random users will be added to the _EMPLOYEES organizational unit. </strong>_
+
+<p>
+To simulate a real-world enterprise environment with a scalable user base, I automated the creation of random test user accounts using a Windows PowerShell script and placed them within a dedicated Organizational Unit named _EMPLOYEES which can be later used to apply group policy objects. 
+</p>
+
+Windows Powershell script used to create 100 random users inside Domain Controller
+<p>
+<img width="1679" height="1034" alt="Screenshot 2025-08-06 201508" src="https://github.com/user-attachments/assets/901a0002-f7b3-4edd-bfa0-ee1b24e74bdb" />
+</p>
+
+The users were added to the Organzational Unit named _EMPLOYEES
+<p>
+<img width="1265" height="1043" alt="Screenshot 2025-08-06 201628" src="https://github.com/user-attachments/assets/62593c91-7ff2-4ba3-9708-62efb76f8eab" />
+</p>
+
+<br />
+
 <p>
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
