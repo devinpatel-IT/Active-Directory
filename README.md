@@ -87,12 +87,14 @@ _<strong> 1.) Deploy an Azure virtual machine with Windows Server for a Domain C
 To simulate a real-world enterprise environment, I deployed a Windows Server virtual machine on Microsoft Azure and configured it as an Active Directory Domain Controller. This setup allowed me to gain hands-on experience with core infrastructure technologies that are essential in corporate IT environments. 
 </p>
 
-<br><br><br>
+<br><br>
 
 AZURE VIRTUAL MACHINE WITH WINDOWS SERVER (WILL BE USED TO HOST ACTIVE DIRECTORY AS A DOMAIN CONTROLLER)
 <p>
 <img width="2354" height="1081" alt="Screenshot 2025-08-06 194325" src="https://github.com/user-attachments/assets/07e39cec-3537-4a4e-8296-2356c3703011" />
 </p>
+
+<br><br>
 
 THE SERVER WAS PROMOTED TO ACTIVE DIRECTORY DOMAIN CONTROLLER AND SAMPLEDOMAIN.COM WAS CREATED AS THE DOMAIN NAME
 <p>
