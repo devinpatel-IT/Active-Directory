@@ -74,9 +74,9 @@ _<b> 5.) Documentation and Automation</b>_
 <h2>High-Level Deployment and Configuration Steps</h2>
 
 - Step 1: Setup and configure Microsoft Azure virtual machines and virtual network
-- Step 2: Setup Active Directory and configure objects. 
-- Step 3: Setup client computer and configure DNS settings
-- Step 4: Use Windows Powershell commands to create users
+- Step 2: Setup Active Directory and configure objects 
+- Step 3: Use Windows Powershell commands to create users
+- Step 4: Setup client computer and configure DNS settings
 - Step 5: Implement Group Policy Objects
 
 <h2>Step 1: Setting up Domain Controller on Windows Server</h2>
@@ -99,7 +99,7 @@ THE SERVER WAS PROMOTED TO ACTIVE DIRECTORY DOMAIN CONTROLLER AND SAMPLEDOMAIN.C
 
 <br />
 
-<h2>Step 2: Configure Objects in Active Directory (Users, computers, groups)</h2>
+<h2>Step 2: Setup Active Directory and configure objects (Users, computers, groups)</h2>
 
 _<strong> 1.) Create new Containers and Organizatinal Units with Active Directory Objects </strong>_
 
@@ -114,7 +114,7 @@ Sample Active Directory Objects were created
 
 <br />
 
-<h2>Step 3: Create random users using Windows Powershell script</h2>
+<h2>Step 3: Use Windows Powershell commands to create users</h2>
 
 _<strong> 1.) The new random users will be added to the _EMPLOYEES organizational unit. </strong>_
 
