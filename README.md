@@ -112,11 +112,6 @@ Sample Active Directory Objects were created
 <img width="1056" height="950" alt="image" src="https://github.com/user-attachments/assets/c2495a36-0645-4bb2-8c9d-f90d63589eb4" />
 </p>
 
-THE SERVER WAS PROMOTED TO ACTIVE DIRECTORY DOMAIN CONTROLLER AND SAMPLEDOMAIN.COM WAS CREATED AS THE DOMAIN NAME
-<p>
-<img width="2361" height="951" alt="Screenshot 2025-08-06 195916" src="https://github.com/user-attachments/assets/c780ae56-2bab-4a44-baf0-564389cd8a85" />
-</p>
-
 <br />
 
 <h2>Step 3: Create random users using Windows Powershell script</h2>
