@@ -192,6 +192,7 @@ PASSWORD POLICY
 <img width="1228" height="675" alt="Screenshot 2025-08-07 112729" src="https://github.com/user-attachments/assets/222b0d8c-8a01-415a-8a8f-57f310fb67d4" />
 </p>
 
+END OF DEMONSTRATION
 
 ACCOUNT LOCKOUT POLICY
 <p>
