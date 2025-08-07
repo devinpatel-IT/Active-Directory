@@ -99,6 +99,26 @@ THE SERVER WAS PROMOTED TO ACTIVE DIRECTORY DOMAIN CONTROLLER AND SAMPLEDOMAIN.C
 
 <br />
 
+<h2>Step 2: Configure Objects in Active Directory (Users, computers, groups)</h2>
+
+_<strong> 1.) Create new Containers and Organizatinal Units with Active Directory Objects </strong>_
+
+<p>
+As the next step in building a functional and realistic Active Directory environment, I created a structured hierarchy of Organizational Units (OUs), along with sample users and computer accounts. This was done to simulate how real organizations manage identity, access, and administrative boundaries at scale. 
+</p>
+
+Sample Active Directory Objects were created
+<p>
+<img width="1056" height="950" alt="image" src="https://github.com/user-attachments/assets/c2495a36-0645-4bb2-8c9d-f90d63589eb4" />
+</p>
+
+THE SERVER WAS PROMOTED TO ACTIVE DIRECTORY DOMAIN CONTROLLER AND SAMPLEDOMAIN.COM WAS CREATED AS THE DOMAIN NAME
+<p>
+<img width="2361" height="951" alt="Screenshot 2025-08-06 195916" src="https://github.com/user-attachments/assets/c780ae56-2bab-4a44-baf0-564389cd8a85" />
+</p>
+
+<br />
+
 <p>
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
