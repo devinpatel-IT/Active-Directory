@@ -134,6 +134,28 @@ The users were added to the Organzational Unit named _EMPLOYEES
 
 <br />
 
+<h2> Setup client computer and configure DNS settings</h2>
+
+_<strong> A new virtual machine will be created in Azure to simulate a client computer in the domain with the appropriate DNS settings </strong>_
+
+<p>
+As part of my Active Directory project, I created a client computer and configured its DNS settings to simulate a real-world user environment. The purpose of this setup was to demonstrate how a typical end-user machine connects and interacts within a domain-controlled network.
+
+By manually pointing the client computer's DNS to the domain controller's IP address, I ensured proper name resolution for domain services. This step was essential for the client to locate and authenticate with the domain controller during the domain join process. Successfully joining the domain allowed me to test user logins, group policy applications, and domain-based resource access—all critical aspects of managing a secure and centralized IT infrastructure. 
+</p>
+
+Windows Powershell script used to create 100 random users inside Domain Controller
+<p>
+<img width="1679" height="1034" alt="Screenshot 2025-08-06 201508" src="https://github.com/user-attachments/assets/901a0002-f7b3-4edd-bfa0-ee1b24e74bdb" />
+</p>
+
+The users were added to the Organzational Unit named _EMPLOYEES
+<p>
+<img width="1265" height="1043" alt="Screenshot 2025-08-06 201628" src="https://github.com/user-attachments/assets/62593c91-7ff2-4ba3-9708-62efb76f8eab" />
+</p>
+
+<br />
+
 <p>
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
