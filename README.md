@@ -8,9 +8,8 @@
 
 Active Directory on Azure – Project Overview
 
-This project showcases my hands-on experience designing and deploying an Active Directory (AD) environment on a Microsoft Azure virtual machine (VM). 
-
-I created this project to deepen my understanding of enterprise-level identity and access management, as well as to simulate real-world IT infrastructure scenarios used in corporate environments.
+This project showcases my hands-on experience designing and deploying an Active Directory (AD) environment 
+on a Microsoft Azure virtual machine (VM). 
 
 Why I Built This Project?
 
