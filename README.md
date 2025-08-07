@@ -134,7 +134,7 @@ The users were added to the Organzational Unit named _EMPLOYEES
 
 <br />
 
-<h2> Setup client computer and configure DNS settings</h2>
+<h2> Step 4: Setup client computer and configure DNS settings</h2>
 
 _<strong> A new virtual machine will be created in Azure to simulate a client computer in the domain with the appropriate DNS settings </strong>_
 
