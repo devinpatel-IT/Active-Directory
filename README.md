@@ -111,6 +111,8 @@ _<strong> 1.) Create new Containers and Organizational Units with Active Directo
 As the next step in building a functional and realistic Active Directory environment, I created a structured hierarchy of Organizational Units (OUs), along with sample users and computer accounts. This was done to simulate how real organizations manage identity, access, and administrative boundaries at scale. 
 </p>
 
+<br><br>
+
 SAMPLE ACTIVE DIRECTORY OBJECTS WERE CREATED
 <p>
 <img width="1056" height="950" alt="image" src="https://github.com/user-attachments/assets/c2495a36-0645-4bb2-8c9d-f90d63589eb4" />
@@ -126,10 +128,14 @@ _<strong> 1.) The new random users will be added to the _EMPLOYEES organizationa
 To simulate a real-world enterprise environment with a scalable user base, I automated the creation of random test user accounts using a Windows PowerShell script and placed them within a dedicated Organizational Unit named _EMPLOYEES, which can be later used to apply group policy objects. 
 </p>
 
+<br><br>
+
 WINDOWS POWERSHELL SCRIPT TO CREATE 100 RANDOM USERS IN THE DOMAIN
 <p>
 <img width="1679" height="1034" alt="Screenshot 2025-08-06 201508" src="https://github.com/user-attachments/assets/901a0002-f7b3-4edd-bfa0-ee1b24e74bdb" />
 </p>
+
+<br><br>
 
 THE USERS WERE ADDED TO THE _EMPLOYEES OU
 <p>
@@ -148,15 +154,21 @@ As part of my Active Directory project, I created a client computer and configur
 By manually pointing the client computer's DNS to the domain controller's IP address, I ensured proper name resolution for domain services. This step was essential for the client to locate and authenticate with the domain controller during the domain join process. Successfully joining the domain allowed me to test user logins, group policy applications, and domain-based resource access—all critical aspects of managing a secure and centralized IT infrastructure. 
 </p>
 
+<br><br>
+
 NEW VIRTUAL MACHINE CREATED IN AZURE TO SIMULATE A COMPUTER ON THE DOMAIN
 <p>
 <img width="2458" height="1084" alt="Screenshot 2025-08-07 095919" src="https://github.com/user-attachments/assets/f34da18a-3339-4ca6-ab06-4d800e5fc64c" />
 </p>
 
+<br><br>
+
 THE IP ADDRESS OF THE CLIENT COMPUTER DNS SERVER WAS SET TO THE IP ADDRESS OF THE DOMAIN CONTROLLER
 <p>
 <img width="1471" height="962" alt="Screenshot 2025-08-07 100031" src="https://github.com/user-attachments/assets/9f989c8e-1229-4d7f-b049-7359e0d3b111" />
 </p>
+
+<br><br>
 
 THE CLIENT COMPUTER IS ADDED TO THE ACTIVE DIRECTORY DOMAIN IN SYSTEM SETTINGS
 <p>
@@ -177,10 +189,14 @@ Group Policy allowed me to automate and standardize settings across all domain-j
 Additionally, I set up password policies to enforce strong authentication practices, including minimum password length, complexity requirements, and account lockout thresholds. These measures are crucial in protecting the network from unauthorized access and aligning with industry best practices for identity security. 
 </p>
 
+<br><br>
+
 A NEW GPO WAS CREATED ON THE _CLIENTS OU (Computers) IN GROUP POLICY MANAGEMENT IN ACTIVE DIRECTORY
 <p>
 <img width="1716" height="467" alt="Screenshot 2025-08-07 105034" src="https://github.com/user-attachments/assets/e9ad5ad8-4560-4966-8a5a-24212f831195" />
 </p>
+
+<br><br>
 
 The GPO WAS CONFIGURED TO BLOCK ALL REMOVABLE STORAGE DEVICES IN GROUP POLICY MANAGEMENT EDITOR
 <p>
@@ -191,11 +207,14 @@ The GPO WAS CONFIGURED TO BLOCK ALL REMOVABLE STORAGE DEVICES IN GROUP POLICY MA
 
 PASSWORD POLICY SETTINGS WERE CONFIGURED USING DEFAULT DOMAIN POLICY IN GROUP POLICY MANAGEMENT EDITOR
 
+<br><br>
+
 PASSWORD POLICY
 <p>
 <img width="1228" height="675" alt="Screenshot 2025-08-07 112729" src="https://github.com/user-attachments/assets/222b0d8c-8a01-415a-8a8f-57f310fb67d4" />
 </p>
 
+<br><br>
 
 ACCOUNT LOCKOUT POLICY
 <p>
